@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5759285b-5d45-4b12-86bd-534dd3e7af8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/scssLintPlugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/.sass-cache/e424ba055b078c29564b4af9c2dee2a78a3ec7f2/design.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/design.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/design.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/design.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/design.scss" beforeDir="false" afterPath="$PROJECT_DIR$/design.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/images/pipes-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pipes-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/images/pipes-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pipes-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/images/pipes-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pipes-3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/images/pipes-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pipes-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pipes-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pipes-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pipes-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pipes-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pipes-3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pipes-3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pipes-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pipes-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,26 +22,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="175">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design.scss">
+        <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="312">
+              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+              <folding>
+                <element signature="e#527#545#0" />
+                <element signature="e#580#598#0" />
+                <element signature="e#395#526#0" />
+                <element signature="e#547#1493#0" />
+                <element signature="e#1515#1604#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +65,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/invoice.html" />
+        <option value="$PROJECT_DIR$/assets/scss/style.css" />
         <option value="$PROJECT_DIR$/design.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/scss/style.scss" />
       </list>
     </option>
   </component>
@@ -75,6 +92,17 @@
               <item name="hardware_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="hardware_site" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hardware_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hardware_site" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hardware_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hardware_site" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -83,13 +111,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Ruby26-x64/bin/scss-lint.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Raj Barnwal\WebstormProjects\hardware_site\assets" />
+      <recent name="C:\Users\Raj Barnwal\WebstormProjects\hardware_site" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Raj Barnwal\WebstormProjects\hardware_site\images" />
       <recent name="C:\Users\Raj Barnwal\WebstormProjects\hardware_site" />
     </key>
   </component>
@@ -115,24 +151,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552715123322</updated>
-      <workItem from="1552715124660" duration="281000" />
+      <workItem from="1552715124660" duration="452000" />
+      <workItem from="1554971539430" duration="9579000" />
+      <workItem from="1555049808469" duration="137000" />
+      <workItem from="1555774540761" duration="3047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281000" />
+    <option name="totallyTimeSpent" value="13215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -140,6 +175,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -149,17 +188,47 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/design.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="282">
+          <caret line="145" column="44" selection-start-line="145" selection-start-column="44" selection-end-line="145" selection-end-column="44" />
+          <folding>
+            <element signature="e#2672#2678#1" expanded="true" />
+            <element signature="e#2833#2839#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/design.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/logo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="175">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+          <folding>
+            <element signature="e#527#545#0" />
+            <element signature="e#580#598#0" />
+            <element signature="e#395#526#0" />
+            <element signature="e#547#1493#0" />
+            <element signature="e#1515#1604#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.full-width {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.heading {
+  background-color: #070707;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.main-navbar {
+  border-bottom: 2px solid #070a7b;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  background: white;
+
+  .navbar-brand {
+    height: auto;
+  }
+
+  .nav.navbar-nav {
+    margin-top: 20px;
+    margin-left: 50px;
+
+    li {
+      margin-right: 30px;
+
+      a {
+        color: #000;
+        font-weight: 600;
+        padding-bottom: 5px;
+        padding-left: 2px;
+        padding-right: 2px;
+        
+        &:hover {
+          color: #3f414d;
+          border-bottom: 3px solid #070a7b;
+        }
+      }
+
+      &.active {
+        a {
+          background-color: transparent;
+          border-bottom: 3px solid #070a7b;
+
+
+        }
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .open {
+      a {
+        background-color: transparent;
+        color: #000;
+        padding-bottom: 5px;
+
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+
+    .dropdown-menu {
+      padding: 0;
+    }
+  }
+}
+
+.banner {
+  height: calc(100vh - 75px);
+
+  .banner-img {
+    height: 600px!important;
+    max-width: 100%!important;
+    width: 100%;
+  }
+}
+
+.invoice-container {
+  border: 1px solid #000;
+  padding-bottom: 30px;
+
+  .logo {
+    padding-left: 10px;
+  }
+
+  .tax-invoice-heading {
+    text-decoration: underline;
+    padding-right: 40px;
+  }
+
+  .name {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .contact-details {
+    font-weight: 600;
+    padding-right: 30px;
+  }
+
+  .gst-number {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .company-info {
+    .title {
+      font-size: 40px;
+      font-weight: 600;
+    }
+
+    .description {
+      font-size: 16px;
+    }
+
+    .address {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .email {
+      font-weight: 600;
+      padding-right: 30px;
+      display: inline-block;
+    }
+
+    .web-url {
+      font-weight: 600;
+      display: inline-block;
+    }
+
+  }
+
+  .invoice-details {
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    span {
+      font-size: 16px;
+      padding-left: 5px;
+    }
+  }
+}
+
+.form-details-table {
+  width: 100%;
+
+  td {
+    border: 1px solid #000;
+  }
+
+  .data {
+    width: 75%;
+  }
+}
+
+.invoice-item-details {
+  width: 100%;
+
+  thead,tbody {
+    border-bottom: 1px solid #000;
+
+    tr{
+      th,td{
+        border-right: 1px solid #000;
+        text-align: center;
+
+        &:last-child {
+          border-right: 0;
+        }
+
+        &:first-child {
+          width: 35px;
+        }
+
+        &:nth-child(2) {
+          width: 500px;
+        }
+
+        &:nth-child(3) {
+          width: 148px;
+        }
+      }
+    }
+  }
+  tbody {
+    tr {
+      border-bottom: 1px solid #000;
+      &:first-child {
+        height: 400px;
+      }
+    }
+  }
+}
+
+
