@@ -65,7 +65,7 @@ body {
 
 .invoice-container {
   border: 1px solid #000;
-  padding-bottom: 30px; }
+  border-bottom: 0; }
   .invoice-container .logo {
     padding-left: 10px; }
   .invoice-container .tax-invoice-heading {
@@ -106,10 +106,11 @@ body {
 
 .form-details-table {
   width: 100%; }
-  .form-details-table td {
-    border: 1px solid #000; }
   .form-details-table .data {
     width: 75%; }
+  .form-details-table .inner-table td {
+    border: 1px solid #000;
+    padding-left: 5px; }
 
 .invoice-item-details {
   width: 100%; }
@@ -126,10 +127,33 @@ body {
         width: 500px; }
       .invoice-item-details thead tr th:nth-child(3), .invoice-item-details thead tr td:nth-child(3), .invoice-item-details tbody tr th:nth-child(3), .invoice-item-details tbody tr td:nth-child(3) {
         width: 148px; }
+    .invoice-item-details thead .bank-details-row td, .invoice-item-details tbody .bank-details-row td {
+      text-align: left;
+      padding-left: 5px; }
   .invoice-item-details tbody tr {
     border-bottom: 1px solid #000; }
     .invoice-item-details tbody tr:first-child {
       height: 400px; }
+  .invoice-item-details .amount-word-cell {
+    text-align: left;
+    padding-left: 5px;
+    vertical-align: top; }
+  .invoice-item-details .company-stamp-row {
+    border-bottom: 0; }
+    .invoice-item-details .company-stamp-row td {
+      text-align: right;
+      padding-right: 5px; }
+  .invoice-item-details .bottom-row {
+    border-top: 0; }
+    .invoice-item-details .bottom-row td {
+      border: 0; }
+      .invoice-item-details .bottom-row td:first-child {
+        text-align: left;
+        padding-left: 5px; }
+      .invoice-item-details .bottom-row td:last-child {
+        text-align: right;
+        padding-right: 5px;
+        vertical-align: bottom; }
 
 .right-nav-options {
   list-style-type: none;
